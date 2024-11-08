@@ -1,0 +1,46 @@
+/* Set the background gradient and basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #a1c4fd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Create a card style for the content */
+.card {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading style */
+h1 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+/* Paragraph style */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Simple fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
